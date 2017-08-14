@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Secret</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Шрифты -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<!-- Сброс стилей -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Мои стили -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="site_wrap">
+	<header class="header">
+		<div class="wrap_logo">
+			<img src="img/secret.png" alt="" class="logo">
+		</div>
+		<div class="header_logo">
+			<img src="img/header.png" alt="">
+		</div>
+		<div class="header_about-me">
+			<div class="info-item">
+				<p class="info-item_title">Полное ФИО</p>
+				<p class="info-item_text">Марченко Денис Сергеевич</p>
+			</div>
+			<div class="info-item">
+				<p class="info-item_title">Год рождения</p>
+				<p class="info-item_text">1995</p>
+			</div>
+			<div class="info-item">
+				<p class="info-item_title">Место жительства</p>
+				<p class="info-item_text">г. Владивосток, Россия</p>
+			</div>
+			<div class="info-item">
+				<p class="info-item_title">Скайп</p>
+				<p class="info-item_text">denismarchenko_95</p>
+			</div>
+			<div class="info-item">
+				<p class="info-item_title">Почта</p>
+				<p class="info-item_text"><a href="https://my.mail.ru/mail/denismarchenko_95/" target="_blank">denismarchenko_95@mail.ru</a></p>
+			</div>
+		</div>
+	</header>
+	<section class="about-me-1">
+		<h2 class="title">Расскажите о себе чекбоксами</h2>
+		<p class="small-text">Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутсвие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
+		<form class="about-me_checkbox">
+			<div class="checkbox-group">
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-1">
+					<label for="check-1">БЭМ/OOCSS</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" id="check-2">
+					<label for="check-2">Pug (Jade)</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-3">
+					<label for="check-3">Stylus/LESS/SASS</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-4">
+					<label for="check-4">Работаю с SVG</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-5">
+					<label for="check-5">Верстаю семантично</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" id="check-6">
+					<label for="check-6">Accessibility (A11Y)</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-7">
+					<label for="check-7">ES2015/ES2016</label>
+				</div>
+			</div>
+			<div class="checkbox-group">
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-8">
+					<label for="check-8">Gulp/GRUNT</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" id="check-9">
+					<label for="check-9">Webpack</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" id="check-10">
+					<label for="check-10">Дружу с WebGL</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-11">
+					<label for="check-11">JQuerry</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" id="check-12">
+					<label for="check-12">Знаю/изучаю Angular</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" id="check-13">
+					<label for="check-13">Знаю/изучаю React</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-14">
+					<label for="check-14">Знаю/изучаю Node.js</label>
+				</div>
+			</div>
+			<div class="checkbox-group">
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-15">
+					<label for="check-15">Использую Git</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-16">
+					<label for="check-16">С глазомером всё ок</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" id="check-17">
+					<label for="check-17">Я ленивый(-ая)</label>
+				</div>
+
+				<div class="checkbox-item">
+					<input type="checkbox" checked id="check-18">
+					<label for="check-18">У меня хороший английский</label>
+				</div>
+			</div>
+		</form>
+	</section>
+	<section class="js_skill">
+		<h2 class="title">Уровень владения JS</h2>
+		<div class="js-skill_graphic">
+			<div class="js-skill_triangle" id="triangle"></div>
+			<div class="js-skill_lvl-1" onclick="move_1()">Не владею</div>
+			<div class="js-skill_lvl-2" onclick="move_2()">Использую готовые решения</div>
+			<div class="js-skill_lvl-3" onclick="move_3()">Использую готовые решения и умею их переделывать</div>
+			<div class="js-skill_lvl-4" onclick="move_4()">Пишу сложный JS с нуля</div>
+		</div>
+	</section>
+	<section class="about-me-2">
+		<h2 class="title">Расскажите о себе словами</h2>
+		<p class="small-text">Напишите пару предложений, чем вас привлекла наша вакансия и чего вы ожидаете от работы в CSSSR. Кстати, будет здорово, если при нехватке места для текста строки будут добавляться автоматически.</p>
+		<div class="about-me-2_description">
+			<p class="about-me-2_text">Ну-ууу-уу...</p>
+			<p class="about-me-2_text">Ээээ...</p>
+			<p class="about-me-2_text">...</p>
+		</div>
+	</section>
+	<section class="about-me_future">
+		<h2 class="title">Какие у вас планы на будущее?</h2>
+			<p class="small-text">Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются</p>
+			<form action="" class="my-plan">
+				<input type="radio" name="plan" id="plan-1">
+				<label for="plan-1">Верстать</label>
+				<input type="radio" name="plan" id="plan-2">
+				<label for="plan-2">Прокачиваться в JS</label>
+				<input type="radio" name="plan" id="plan-3">
+				<label for="plan-3">Менеджерство</label>
+				<input type="radio" name="plan" id="plan-4">
+				<label for="plan-4">Другое</label>
+			</form>
+	</section>
+	<footer class="DateOfFilling">
+		<label class="info-item_title" for="input_month">Дата заполнения</label>
+		<input type="date" id="input_month" class="DateOfFilling_input" value="2017-08-11">
+	</footer>
+</div>
+<!-- Скрипты -->
+	<script src="js/js.js"></script>
+</body>
+</html>

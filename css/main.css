@@ -1,0 +1,89 @@
+@charset "UTF-8";html{font-size:10px;}
+body{max-width:1280px;background-color:#797979;margin:0 auto;}
+.small-text{font:1.5rem/1.5 arial;margin-bottom:20px;}
+.title{font:bold 2.4rem/1 "PT Sans", sans-serif;margin-bottom:30px;}
+.site_wrap{max-width:1000px;width:100%;background:url(../img/bg.jpg);-webkit-box-sizing:border-box;box-sizing:border-box;padding:50px 100px;margin:auto;}
+.wrap_logo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin:0 -50px;margin-bottom:20px;}
+section, header{margin-bottom:60px;}
+.header{margin-bottom:60px;}
+.header_logo{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-bottom:50px;}
+.info-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}
+.info-item_title{font:bold 2.2rem/1rem "PT Sans", sans-serif;padding-right:30px;margin:0;}
+.info-item_text, .about-me-2_text, .DateOfFilling_input{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;-webkit-box-flex:1;-webkit-flex:1 0;-ms-flex:1 0;flex:1 0;padding-left:20px;padding-bottom:20px;font:3em/1em "Courier New", "Courier", monospace, serif;margin:0;background:url(../img/line.png) no-repeat 0 bottom/850px 40px;}
+.info-item_text a, .about-me-2_text a, .DateOfFilling_input a{text-decoration:none;color:#000;}
+.about-me_checkbox{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:wrap;-ms-flex-flow:wrap;flex-flow:wrap;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;padding-top:15px;}
+.about-me_checkbox .checkbox-group{-webkit-box-flex:1;-webkit-flex:1 1 33%;-ms-flex:1 1 33%;flex:1 1 33%;}
+.about-me_checkbox .checkbox-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin-bottom:10px;}
+.about-me_checkbox .checkbox-item input{display:none;}
+.about-me_checkbox .checkbox-item input:checked ~ label::after{opacity:1;}
+.about-me_checkbox .checkbox-item label{position:relative;padding-left:25px;font:bold 2.1rem/1 "PT Sans", sans-serif;}
+.about-me_checkbox .checkbox-item label::before{position:absolute;left:-5px;top:-10px;content:'';width:30px;height:30px;background:url("../img/sprite.png");}
+.about-me_checkbox .checkbox-item label::after{opacity:0;-webkit-transition:.2s all;-o-transition:.2s all;transition:.2s all;position:absolute;left:-5px;top:-10px;content:'';width:30px;height:30px;background:url("../img/sprite.png") 0 -40px;}
+.about-me-2_description{padding-top:20px;}
+.about-me_future .my-plan{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:wrap;-ms-flex-flow:wrap;flex-flow:wrap;}
+.about-me_future input{display:none;}
+.about-me_future input:checked + label::after{opacity:1;}
+.about-me_future label{position:relative;padding:0 20px 10px 30px;font:bold 21px/1em "PT Sans", sans-serif;}
+.about-me_future label::before{position:absolute;left:-5px;top:-10px;content:'';width:30px;height:40px;background:url("../img/sprite.png") 0 -80px;}
+.about-me_future label::after{opacity:0;-webkit-transition:.2s all;-o-transition:.2s all;transition:.2s all;position:absolute;left:-6px;top:-10px;content:'';width:30px;height:40px;background:url("../img/sprite.png") 0 -120px;}
+[class*="js-skill_lvl"]::before{position:absolute;content:'';}
+[class*="js-skill_lvl"], .js-skill_triangle{cursor:pointer;font:bold 1.3rem/1.5 "PT Sans", sans-serif;content:'';position:absolute;top:30px;}
+.js-skill_graphic{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;position:relative;width:100%;margin-bottom:100px;height:5px;background:url(../img/line.png) no-repeat center center/102%;}
+.js-skill_triangle{top:-25px;left:-webkit-calc(20% - 10px);left:calc(20% - 10px);width:30px;height:25px;-webkit-transition:.5s all;-o-transition:.5s all;transition:.5s all;background:url(../img/sprite.png) no-repeat -10px -125px/40px 160px;}
+.js-skill_lvl-1{width:20%;left:0;}
+.js-skill_lvl-1::before, .js-skill_lvl-2::before, .js-skill_lvl-3::before, .js-skill_lvl-4::before{top:-28px;height:20px;width:2px;background-color:#222;}
+.js-skill_lvl-2{width:30%;left:20%;}
+.js-skill_lvl-2::before, .js-skill_lvl-3::before{height:10px;}
+.js-skill_lvl-3{width:25%;left:50%;}
+.js-skill_lvl-4{width:25%;text-align:right;right:0;}
+.js-skill_lvl-4::before{left:100%;}
+.DateOfFilling{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;}
+.DateOfFilling_input{-webkit-box-flex:0;-webkit-flex:0 0;-ms-flex:0 0;flex:0 0;display:block;letter-spacing:4px;border:none;padding-left:10px;}
+@media only screen and (max-width:1280px){section, .header{margin-bottom:50px;}
+.site_wrap{padding:40px 80px;}
+.wrap_logo{margin:0 -30px;}
+.title{font:bold 2rem/1 "PT Sans", sans-serif;}
+.about-me_checkbox .checkbox-item label{font:bold 1.8rem/1 "PT Sans", sans-serif;}
+.info-item_title{font:bold 1.9rem/1rem "PT Sans", sans-serif;padding-right:24px;padding-bottom:20px;}
+.info-item_text, .about-me-2_text, .DateOfFilling_input{font:2.5em/1em "Courier New", "Courier", monospace, serif;}
+.small-text{font:1.4rem/1.5 arial;}
+[class*="js-skill_lvl"]{font:bold 1.2rem/1.5 "PT Sans", sans-serif;}
+.my-plan{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}
+.my-plan label{-webkit-box-sizing:border-box;box-sizing:border-box;font:bold 1.5rem/1 "PT Sans", sans-serif;}
+}
+@media only screen and (max-width:1024px){section, .header{margin-bottom:40px;}
+.site_wrap{padding:30px 60px;}
+.wrap_logo{margin:0 -10px;}
+.title{font:bold 1.7rem/1 "PT Sans", sans-serif;}
+.about-me_checkbox .checkbox-item label{font:bold 1.5rem/1 "PT Sans", sans-serif;}
+.info-item_title{font:bold 1.6rem/1rem "PT Sans", sans-serif;padding-right:18px;}
+.info-item_text, .about-me-2_text, .DateOfFilling_input{font:2.1em/1em "Courier New", "Courier", monospace, serif;}
+.small-text{font:1.2rem/1.5 arial;}
+[class*="js-skill_lvl"]{font:bold 1rem/1.5 "PT Sans", sans-serif;}
+.my-plan{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}
+.my-plan label{-webkit-box-sizing:border-box;box-sizing:border-box;margin-bottom:10px;font:bold 1.5rem/1 "PT Sans", sans-serif;}
+}
+@media only screen and (max-width:768px){section, .header{margin-bottom:30px;}
+.site_wrap{padding:20px 40px;}
+.wrap_logo{margin:0;}
+.title{font:bold 1.4rem/1 "PT Sans", sans-serif;}
+.logo{width:30%;height:30%;}
+.about-me_checkbox .checkbox-item label{font:bold 1.2rem/1 "PT Sans", sans-serif;}
+.info-item_title{font:bold 1.3rem/1rem "PT Sans", sans-serif;padding-right:8px;}
+.info-item_text, .about-me-2_text, .DateOfFilling_input{font:1.2em/1em "Courier New", "Courier", monospace, serif;padding-left:10px;margin-top:-5px;background:url(../img/line.png) no-repeat 0 bottom/700px 30px;}
+.small-text{font:1rem/1.5 arial;}
+[class*="js-skill_lvl"]{font:bold 0.8rem/1.5 "PT Sans", sans-serif;}
+.my-plan label{-webkit-box-flex:0;-webkit-flex:0 0 45%;-ms-flex:0 0 45%;flex:0 0 45%;font:bold 1.2rem/1 "PT Sans", sans-serif;}
+}
+@media only screen and (max-width:480px){section, .header{margin-bottom:20px;}
+.site_wrap{padding:10px 20px;}
+.title{font:bold 1.1rem/1 "PT Sans", sans-serif;}
+.about-me_checkbox .checkbox-group{-webkit-box-flex:1;-webkit-flex:1 1 50%;-ms-flex:1 1 50%;flex:1 1 50%;}
+.about-me_checkbox .checkbox-item label{font:bold 1.2rem/1 "PT Sans", sans-serif;}
+.info-item_title{font:bold 1rem/1rem "PT Sans", sans-serif;padding-right:6px;}
+.info-item_text, .about-me-2_text, .DateOfFilling_input{font:1em/1em "Courier New", "Courier", monospace, serif;}
+.small-text{font:0.8rem/1.5 arial;}
+[class*="js-skill_lvl"]{font:bold 0.6rem/1.5 "PT Sans", sans-serif;}
+.my-plan{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}
+.my-plan label{margin-bottom:5px;font:bold 1.2rem/1 "PT Sans", sans-serif;}
+}

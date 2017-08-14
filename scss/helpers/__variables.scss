@@ -1,0 +1,64 @@
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 1024px;
+$screen-lg: 1280px;
+$screen-xl: 1920px;
+
+/* Шрифты H1 */
+$h1-xs: 1.8rem;
+$h1-sm: 2.4rem;
+$h1-md: 3rem;
+$h1-lg: 4rem;
+$h1-xl: 5rem;
+/* Шрифты H2 */
+$h2-xs: 2.4rem;
+$h2-sm: 1.2rem;
+$h2-md: 1.5rem;
+$h2-lg: 1.8rem;
+$h2-xl: 3rem;
+/* Шрифты P */
+
+/* Отступы */
+$pad-xs: 10px 20px;
+$pad-sm: 20px 40px;
+$pad-md: 30px 60px;
+$pad-lg: 40px 80px;
+$pad-xl: 50px 100px;
+
+$PT_Sans:'PT Sans', sans-serif;
+
+$checkbox-label-xl: bold 2.1rem/1 $PT_Sans;
+$checkbox-label-lg: bold 1.8rem/1 $PT_Sans;
+$checkbox-label-md: bold 1.5rem/1 $PT_Sans;
+$checkbox-label-sm: bold 1.2rem/1 $PT_Sans;
+$checkbox-label-xs: bold 1.2rem/1 $PT_Sans;
+
+$about-me-l-xl: bold 2.2rem/1rem $PT_Sans;
+$about-me-l-lg: bold 1.9rem/1rem $PT_Sans;
+$about-me-l-md: bold 1.6rem/1rem $PT_Sans;
+$about-me-l-sm: bold 1.3rem/1rem $PT_Sans;
+$about-me-l-xs: bold 1rem/1rem $PT_Sans;
+
+$about-me-r-xl: 3em/1em "Courier New", "Courier", monospace, serif;
+$about-me-r-lg: 2.5em/1em "Courier New", "Courier", monospace, serif;
+$about-me-r-md: 2.1em/1em "Courier New", "Courier", monospace, serif;
+$about-me-r-sm: 1.2em/1em "Courier New", "Courier", monospace, serif;
+$about-me-r-xs: 1em/1em "Courier New", "Courier", monospace, serif;
+
+$title-xl:bold 2.4rem/1 $PT_Sans;
+$title-lg:bold 2rem/1 $PT_Sans;
+$title-md:bold 1.7rem/1 $PT_Sans;
+$title-sm:bold 1.4rem/1 $PT_Sans;
+$title-xs:bold 1.1rem/1 $PT_Sans; 
+
+$sm-text-xl: 1.5rem/1.5 arial; 
+$sm-text-lg: 1.4rem/1.5 arial; 
+$sm-text-md: 1.2rem/1.5 arial; 
+$sm-text-sm: 1rem/1.5 arial; 
+$sm-text-xs: 0.8rem/1.5 arial; 
+
+$js-skill_lvl-xl: bold 1.3rem/1.5 $PT_Sans ;
+$js-skill_lvl-lg: bold 1.2rem/1.5 $PT_Sans ;
+$js-skill_lvl-md: bold 1rem/1.5 $PT_Sans ;
+$js-skill_lvl-sm: bold 0.8rem/1.5 $PT_Sans ;
+$js-skill_lvl-xs: bold 0.6rem/1.5 $PT_Sans ;
